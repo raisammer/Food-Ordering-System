@@ -1,0 +1,39 @@
+.Card{
+    width: 40rem;
+    padding: 1rem;
+}
+.CartButtons{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+    padding: 0;
+}
+.CartButtons .Button{
+    margin:0.5rem;
+}
+.CartButtons .close{
+    background-color: white;
+    border: 1px solid #2C0D00;
+    color:#2C0D00
+}
+.CartButtons .close:hover{
+    background-color: #2C0D00;
+    color:white;
+}
+.total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Items{
+    max-height: 45vh;
+    overflow-y:auto;
+}
+.Checkout{
+    height: 42vh;
+    overflow-y:auto;
+}
+.ItemsCheckout{
+    max-height: 25vh;
+    overflow-y:auto;
+}
